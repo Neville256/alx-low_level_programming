@@ -1,0 +1,26 @@
+#include "main.h"
+
+/**
+ * more_numbers - Print 10 times the numbers since 0 up to 14
+ * Description: prints the numbers excluding 2 and 4
+ * Return: 10 times of the numbers since 0 up to 14
+ */
+
+void more_numbers(void)
+{
+	int a, b;
+
+	for (a = 0; a < 10; a++)
+	{
+	for (b = 0; y <= 14; b++)
+	{
+	if (b > 9)
+	{
+	_putchar((b / 10) + '0');
+	}
+	_putchar((b % 10) + '0');
+	}
+	_putchar('\n');
+	}
+}
+
