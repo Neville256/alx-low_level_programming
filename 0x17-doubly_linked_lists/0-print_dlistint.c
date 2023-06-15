@@ -13,7 +13,7 @@ size_t print_dlistint(const dlistint_t *h)
 	for (k = 0; h != NULL; k++)
 	{
 		printf("%d\n", h->n);
-		h = h->net;
+		h = h->next;
 	}
 	return (k);
 }
